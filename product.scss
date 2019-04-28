@@ -1,0 +1,32 @@
+.product {
+  background: #fff;
+  border-right: 1px solid #e0e0e0;
+
+  table {
+    border-collapse: separate;
+    border-spacing: 0 6px;
+    width: 100%;
+  }
+
+  .product-images {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 12px 24px 30px;
+
+    .square {
+      padding: 0 3px 6px;
+      width: 25%;
+
+      .inner {
+        align-items: center;
+        border: 1px solid #e0e0e0;
+        display: flex;
+        justify-content: center;
+        position: relative;
+      }
+
+    }
+
+  }
+
+}
